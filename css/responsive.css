@@ -1,4 +1,462 @@
+.hide {
+  display: none;
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  main > section {
+    margin: 4rem 0;
+  }
+
+  .tittle {
+    margin-top: 0;
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .sub-tittle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 0;
+    margin-bottom: 2rem;
+  }
+
+  .nav-bar {
+    padding: 0 20px;
+  }
+
+  .hamburg i {
+    display: none;
+  }
+  .nav-item {
+    padding: 0.3rem;
+  }
+
+  .nav-list {
+    padding: 0.3rem 0.8rem;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: none;
+  }
+
+  .nav-color {
+    background-color: #e6533c;
+  }
+
+  /* banner-section  */
+  .banner-section {
+    flex-direction: column;
+  }
+
+  .banner-content {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+  .banner-tittle {
+    width: 80%;
+    font-size: 2.5rem;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .tutorial {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem 3rem;
+  }
+  .video {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 3px;
+  }
+  .text {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .tutorial-top {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -800px;
+  }
+  .tutorial-bottom {
+    position: absolute;
+    margin-left: -550px;
+    margin-bottom: -400px;
+  }
+  /* habit-section */
+  .habit-content {
+    padding: 0 20px;
+  }
+  .round-img-section {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* extra-mile-easily */
+  .extra-mile-easily{
+    padding: 0 20px;
+    /* margin: 20px; */
+  }
+  /* BMi-section */
+  .BMI-sectiion {
+    width: 100%;
+  }
+  .bmi-contact-form{
+    background: none;
+  }
+
+  .bmi-content {
+    width: 100%;
+    padding: 20px;
+  }
+  .bmi-details {
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+  }
+  .bmi-tittle {
+    margin-top: 1rem;
+  }
+  .bmi-tittle-1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 2rem 0;
+  }
+  table {
+    margin-right: 40px;
+  }
+ 
+  .bmi-intro {
+    width: 100%;
+  }
+
+  .contact-login {
+    width: 100%;
+  }
+  input,
+  select {
+    padding: 1rem 1.2rem;
+  }
+  .cal-btn {
+    
+    padding: 1.5rem 5rem;
+    font-size: 1.5rem;
+  }
+  /* excercise-section */
+  .excercise-section {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  /* grid-img */
+  .grid-img img {
+    width: 100%;
+    
+  }
+  .grid-tittle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+  /*fitlogo  */
+  .footer-container{
+    gap: 40px;
+  }
+
+  .fitlogo {
+    width: 60%;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* mobile device */
+
 @media screen and (max-width: 576px) {
+  main > section {
+    margin: 5rem 0;
+  }
+
+  .tittle {
+    margin-top: 0;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .sub-tittle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 0;
+    margin-bottom: 2rem;
+  }
+
+  /* .nav-bar{
+        flex-direction: column;
+    } */
+  .nav-bar {
+    padding: 0 20px;
+  }
+  .nav-item {
+    display: none;
+  }
+
+  .hamburg i {
+    color: white;
     
+  }
+
+  /* banner-section  */
+  .banner-section {
+    flex-direction: column;
+  }
+
+  .banner-content {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+  .banner-tittle {
+    width: 80%;
+    font-size: 2.5rem;
+  }
+  .banner-btn {
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+  .btn-primary {
+    padding: 12px 38px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 100%;
+  }
+  .download-btn {
+    background: none;
+    width: 100%;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .tutorial {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1.5rem;
+  }
+  .video {
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 3px;
+  }
+  .text {
+    font-size: 0.6rem;
+    font-weight: 300;
+  }
+  .tutorial-top {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: -330px;
+  }
+  .tutorial-bottom {
+    position: absolute;
+    margin-left: -220px;
+    margin-bottom: -30px;
+  }
+
+  /* habit-section */
+  .habit-content {
+    padding: 0 20px;
+  }
+  .round-img-section {
+    grid-template-columns: 1fr;
+  }
+
+  /* excercise-section */
+  .excercise-section {
+    width: 100%;
+  }
+
+  /* extra-mile-section */
+  .extra-mile-easily {
+    padding: 0 20px;
+  }
+  .extra-mile-section {
+    flex-direction: column;
+  }
+  .run-sub-tittle {
+    margin: 0;
+  }
+  .extra-mile-right {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .extra-mile-left {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+
+
+  /* /* excercise-section */
+  .excercise-section {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .color-img {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .img-1 {
+    background-image: url("../images/exercise1.jpg");
+    background-position: cover;
+    background-size: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    grid-column: 1 / span 6;
+    background-color: rgba(0, 128, 0, 0.359);
+    background-blend-mode: overlay;
+  }
+  .img-2 {
+    background-image: url("../images/exercise2.png");
+    background-position: cover;
+    background-size: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    grid-column: 7 / span 6;
+    background-color: rgba(255, 0, 0, 0.394);
+    background-blend-mode: overlay;
+  }
+  .img-3 {
+    background-image: url("../images/exercise3.png");
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    grid-column: 1 / span 5;
+    background-color: #29292979;
+    background-blend-mode: overlay;
+  }
+  .img-4 {
+    background-image: url("../images/exercise4.png");
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    grid-column: 6 / span 7;
+    background-color: rgba(0, 0, 0, 0.514);
+    background-blend-mode: overlay;
+  }
+  .img-5,
+  .img-6 {
+    display: none;
+  }
+
+  /* BMi-section */
+  .BMI-sectiion {
+    width: 100%;
+  }
+
+  .bmi-content {
+    width: 100%;
+    padding: 20px;
+  }
+  .bmi-details {
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+  }
+  .bmi-tittle {
+    margin-top: 1rem;
+  }
+  .bmi-tittle-1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 2rem 0;
+  }
+  table {
+    margin-right: 30px;
+  }
+  table,
+  th,
+  td {
+    padding: 0.8rem 1rem;
+  }
+  th {
+    font-size: 1rem;
+  }
+
+  td {
+    font-size: 1rem;
+  }
+
+  .bmi-intro {
+    width: 100%;
+  }
+
+  .contact-login {
+    width: 100%;
+  }
+  input,
+  select {
+    padding: 1rem 1.2rem;
+  }
+  .cal-btn {
     
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    width: 40%;
+  }
+  .input-text {
+    gap: 15px;
+  }
+  /* grid-img-section */
+  .grid-img-section {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+  .grid-tittle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+  /* .footer-container */
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 3rem 2rem;
+    gap: 30px;
+  }
+  
+  .fitlogo,
+  .started,
+  .get-start {
+    margin-bottom: 2rem;
+  }
 }

@@ -1,566 +1,678 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
 .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
-  }
-  /* shared style css */
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #000000;
-    color: #ffff;
-  }
-  main , .nav-bar, .banner-section, footer{
-    width: 1440px;
-    margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
 
-  }
-  main > section{
-    margin: 7rem 0;
-  }
-  .flex{
-    display: flex;
-  }
-  .btn-primary{
-    
-padding: 16px 40px 16px 40px;
-border-radius: 42px;
-background: rgb(230, 83, 60);
-font-size: 1.2rem;
-font-weight: 600;
-line-height: 1.3rem;
-border: none;
-margin-top: 1.8rem;
+/* shared style css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffff;
+}
+
+main,
+.nav-bar,
+.banner-section,
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main > section {
+  margin: 6rem 0;
+}
+
+.flex {
+  display: flex;
+}
 
 
-  }
-  .shape{
-    font-family: "Dancing Script", cursive;
-    background: none;
-  }
-  .tittle{
-    font-size: 3rem;
-font-weight: 900;
+.btn-primary {
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  border: none;
+  margin-top: 1.8rem;
+}
 
-  }
-  .sub-tittle{
-color: rgba(255, 255, 255, 0.5);
-font-size: 1rem;
-font-weight: 400;
+.shape {
+  font-family: "Dancing Script", cursive;
+  background: none;
+}
 
-margin: .8rem 0;
+.tittle {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1.3rem;
+}
 
-  }
-  .secondary-color{
-    color: rgba(255, 255, 255, 0.5);
-  }
-  /* nav bar section */
-  header{
-    background: linear-gradient(180deg, #171717, #292929, #171717);
-  }
-  .nav-bar{
-    justify-content: space-between;
-    align-items: center;
-    border: 3px solid red;
-    padding: 2rem 0;
-    background: linear-gradient(180deg, #171717, #292929, #171717);
-  }
-  .logo{
-    font-size: 2.2rem;
-    font-weight: 800;
-    color: #E6533C;
-    font-style: italic;
-    background: none;
-  }
-  .nav-item{
-    box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 2.4rem;
-padding: 0.5rem;
-background: none;
+.sub-tittle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
 
-  }
-  .nav-list{
-    margin-left: 30px;
-    padding: 0.5rem 1.2rem;
-    border-radius: 2.9rem;
-    background: none;
-    
-  }
-  .nav-link{
-    text-decoration: none;
-    color: #ffff;
-    font-size: 1.2rem;
-    font-weight: 600;
-    background: none;
-  }
-  .nav-color {
-    background-color: #E6533C;
-  }
-  .hamburg{
-    display: none;
-  }
-  /* banner-section */
-  .banner-section{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 3px solid red;
-    background: linear-gradient(180deg, #171717, #292929, #171717);
-  }
-  .banner-content{
-    width: 50%;
-    border: 3px solid red;
-    background: linear-gradient(180deg, #171717, #292929, #171717);
-  }
-  .banner-tittle{
-    font-size: 4.9rem;
-    font-weight: 900;
-    background: none;
-  }
-  .banner-description{
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 1.8rem 0;
-    color: rgba(255, 255, 255, 0.5);;
-  }
-  .banner-img img{
-    background: none;
-  }
- 
- 
-  .banner-img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 87px;
-    border: 3px solid red;
-    position: relative;
-    
-   background: none;
-    width: 50%;
-  }
-  .download-btn{
-    padding: 16px 40px 16px 40px;
-border-radius: 42px;
-font-size: 1.2rem;
-font-weight: 600;
-line-height: 1.3rem;
-box-sizing: border-box;
-border: 1px solid rgb(255, 255, 255);
-border-radius: 42px;
-background: none;
+.secondary-color {
+  color: rgba(255, 255, 255, 0.5);
+}
 
+/* nav bar section */
+header {
+  background: linear-gradient(180deg, #171717, #292929, #171717);
+}
 
-  }
-  
-  
-  .tutorial{
-    box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 0.8rem;
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-padding: 0.7rem 2rem;
-justify-content: center;
-align-items: center; 
-flex-direction: row;
-background: linear-gradient(180deg, #171717, #292929, #171717);
-  }
-
-  p{
-    background: none;
-    
-  }
-  
-  .video{
-    font-size: 2rem;
-font-weight: 900;
-background: none;
-flex-direction: column;
- 
-
-
-  }
-  .text{
-    font-size: 1rem;
-font-weight: 400;
-background: none;
-  }
-  .btn-t{
-    flex-direction: column;
-    background: none;
-  }
-  .round  i{
-    color: #E6533C;
-    font-size: 2rem;
-    background: rgba(255, 255, 255, 0.1);
-    margin-right: 0.9rem;
-    background: none;
-    
-  }
-  .tutorial-top{
-    position: absolute;
-    margin-left: 270px;
-    margin-top: -200px;
-  }
-  .tutorial-bottom{
-    position: absolute;
-    margin-left:-400px;
-    margin-bottom: -350px;
-
-   
-  }
- /*  <!-- Change Your Habits --> */
- .habit-content{
-  text-align: center;
- }
- .round-img-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
- }
- .round-img-details{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
-
- .round-img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 3px solid #222222;
- }
- .round-img-description{
-    text-align: center;
- }
- .movement{
-    font-size: 1.3rem;
-font-weight: 600;
-padding-top: 1rem;
- }
-/* BMI Calculator */
-.bmi-details{
+.nav-bar {
   justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  background: none;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #e6533c;
+  font-style: italic;
+  background: none;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2.4rem;
+  padding: 0.2rem 2.5rem 0.2rem 0.2rem;
+  background: none;
+}
+
+.nav-list{
+  background: none;
+  border: none;
+}
+.nav-color {
+  background-color: #e6533c;
+
+  padding: 0.3rem .5rem;
+  border-radius: 2.9rem;
+  background: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 0px;
+  background: none;
+}
+
+.nav-color {
+  background-color: #e6533c;
+}
+
+.hamburg {
+  display: none;
+}
+
+/* banner-section */
+.banner-section {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  
+}
+
+.banner-content {
+  width: 50%;
+  background: none;
+}
+
+.banner-tittle {
+  font-size: 4rem;
+  font-weight: 900;
+  background: none;
+}
+
+.banner-description {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1.8rem 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+.banner-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 87px;
+  position: relative;
+  background: none;
+  width: 50%;
+}
+
+.banner-img img {
+  background: none;
+  object-fit: cover;
+}
+.download-btn {
+  background: none;
+  border: 1px solid #ffff;
+  
+}
+.banner-btn{
+  display: flex;
+  gap: 24px;
+  background: none;
+}
+
+.tutorial {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.8rem;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.8rem 2.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+   
+}
+
+p {
+  background: none;
+}
+
+.video {
+  font-size: 2.3rem;
+  font-weight: 900;
+  background: none;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 1rem;
+  
+  background: none;
+}
+
+.btn-t {
+  flex-direction: column;
+  background: none;
+}
+
+.round i {
+  color: #e6533c;
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 0.9rem;
+  background: none;
+}
+
+.tutorial-top {
+  position: absolute;
+  margin-left: 270px;
+  margin-top: -200px;
+}
+
+.tutorial-bottom {
+  position: absolute;
+  margin-left: -400px;
+  margin-bottom: -350px;
+}
+
+/*  <!-- Change Your Habits --> */
+.habit-content {
+  text-align: center;
+}
+
+.round-img-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.round-img-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.bmi-content{
+.round-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 8px solid #222222;
+}
+
+.round-img-description {
+  text-align: center;
+}
+
+.movement {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+/* BMI Calculator */
+
+
+.bmi-details {
+  justify-content: space-around;
+  padding: 3rem 0;
+  background: #232322;
+}
+
+.bmi-content {
   width: 700px;
   margin: 0 auto;
- text-align: justify;
-}
-.bmi-tittle-1{
-  font-size: 2.3rem;
-font-weight: 900;
-margin-bottom: 3.7rem;
-}
-.bmi-tittle{
-  font-size: 2.3rem;
-font-weight: 900;
-margin-bottom: 1rem;
-}
-table{
-  
-  border-collapse: collapse;
-  
- 
+  text-align: justify;
+
 
 }
-table,th,td{
-  border: 3px solid rgba(255, 255, 255, 0.1) ;
-  padding: 1.5rem 2rem;
+
+.bmi-tittle-1 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  padding-bottom: 3rem;
+  background: #232322;
+}
+
+.bmi-intro {
+  text-align: justify;
+  width: 620px;
+  
+  background: #232322;
+}
+
+.bmi-tittle {
+  font-size: 2.3rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+  background: #232322;
+}
+.bmi-calculation{
+  background: none;
+}
+.bmi-contact-form{
+  background: none;
+}
+table {
+  border-collapse: collapse;
+  background: none
+}
+
+table,
+th,
+td {
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem 1.5rem;
   text-align: center;
- 
+  background: #232322;
+  
 }
-th{
-  font-size: 1.8rem;
-font-weight: 500;
+
+th {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
-td{
+
+td {
   font-size: 1.3rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
 }
-.bmi-contact-form{
+
+.input-text {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.bmi-intro{
-  text-align: justify;
-  width: 620px;
-  margin: 0 auto;
-}
-.input-text{
-  display: flex;
-  gap: 30px;
-  margin-bottom: 30px;
+  gap: 24px;
+  margin-bottom: 24px;
+  background: #232322;
 }
 
-input, select{
-  padding: 2rem 1.5rem;
-  width: 300px;
-  border-radius: 16px;
+.contact-login {
+  width: 100%;
+  background: #232322;
+}
+
+input,
+select {
+  padding: 1.5rem 1.2rem;
+  border:  rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
   font-size: 1.3rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
-  
-
+  width: 50%;
+  background: rgba(255, 255, 255, 0.1) ;
 }
-.option select{
+.option{
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1) ;
+  border:  rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.option select {
   width: 100%;
+ 
+  
 }
-
-
-
-
 
 /*  Trainings and Exercises  */
-.excercise-color-image-one{
-  
+.color-img{
   display: grid;
-  grid-template-columns: 0.5fr 1fr 0.6fr;
-}
-.excercise-color-image-two{
-  display: grid;
-  grid-template-columns: 1fr 0.6fr 0.8fr;
-
+  grid-template-columns: repeat(12,1fr);
 }
 
-.color-img img{
-  
+.img-1{
+  background-image: url("../images/exercise1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
   height: 300px;
-  width: 100%;
-  object-fit: cover;
-  display: inline-block;
-}
-.text{
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-.color-img p{
-  margin-top: -50px;
-  margin-left: 20px;
-}
-.color-2 p{
-  margin-top: -250px;
-  margin-left: 20px;
+  grid-column: 1/span 3;
+  background-color: rgba(0, 128, 0, 0.359);
+  background-blend-mode: overlay;
   
+}
+.img-2{
+  background-image: url("../images/exercise2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 300px;
+  grid-column: 4/span 5 ;
+  background-color: rgba(255, 0, 0, 0.394);
+  background-blend-mode: overlay;
   
-
+}
+.img-3{
+  background-image: url("../images/exercise3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 300px;
+  grid-column: 9/span 4;
+  background-color: #29292979;
+  background-blend-mode: overlay;
+  
+}
+.img-4{
+  background-image: url("../images/exercise4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 300px;
+  grid-column: 1/span 5;
+  background-color: rgba(0, 0, 0, 0.514);
+  background-blend-mode: overlay;
+}
+.img-5{
+  background-image: url("../images/exercise5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 300px;
+  grid-column: 6/span 4;
+  background-color: rgba(255, 255, 0, 0.325);
+  background-blend-mode: overlay;
+}
+.img-6{
+  background-image: url("../images/exercise6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 300px;
+  grid-column: 10/span 3 ;
+  background-color: rgba(255, 255, 255, 0.257);
+  background-blend-mode: overlay;
 }
 
 
-
-
-
-
-
-
-
- /* Run an Extra 
+/* Run an Extra 
 Mile Easily */
-.extra-mile-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    background-color: #232322;
-    border-radius: 1rem;
-
+.extra-mile-section {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #232322;
+  border-radius: 1rem;
 }
-.extra-mile-left{
+
+.extra-mile-left {
   width: 50%;
   align-content: center;
   text-align: left;
   background: none;
-  
+  margin-left: 2rem;
 }
-.run-tittle{
+
+.run-tittle {
   font-size: 3rem;
   font-weight: 900;
   background: none;
-
 }
-.run-sub-tittle{
+
+.run-sub-tittle {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
-  margin: .8rem 0;
+  margin: 1rem 0;
 }
 
-     .extra-mile-right{
-      display: flex;
+.extra-mile-right {
+  display: flex;
   flex-direction: column;
   align-items: center;
-      width: 40%;
-      height: 350px;
-      border-radius: 16px;
-     background-image: url("../images/run.jpg");
-      background-size: 300%;
-      background-position: -80% 30%;
-    }
+  width: 40%;
+  height: 350px;
+  border-radius: 16px;
+  background-image: url("../images/run.jpg");
+  background-size: 300%;
+  background-position: -80% 30%;
+}
+
+/*Meet Our Team  */
+
+.meet-content {
+  text-align: center;
+}
+
+.grid-img-section {
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.grid-img-1{
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/trainer1.png");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  border-radius: 18px;
+}
+.grid-img-2{
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/trainer2.png");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  border-radius: 18px;
+}
+.grid-img-3{
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/trainer3.png");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  border-radius: 18px;
+}
+.grid-img-4{
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/trainer4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  border-radius: 18px;
+}
+.grid-img-5{
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/trainer5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  border-radius: 18px;
+}
+.grid-img-6{
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/trainer6.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  border-radius: 18px;
+}
+.grid-description{
+  background: none;
+  margin-top: 200px;
+  margin-left: 30px;
+}
+.grid-tittle{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+.trainer{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: gray;
+}
+
+
+/* .trainer{
+  margin-bottom: 200px;
+} */
 
 
 
 
 
-
-
-
-
-
-
-
-     /*Meet Our Team  */
-     
- .meet-content{
-    text-align: center;
- }
- 
-.grid-img-section{
-    padding: 2rem;
-    margin-top: 4rem;
-    border-radius: 18px;
-background: rgba(255, 255, 255, 0.1);
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 24px;
-   
-
- }
- .grid-img img{
-    width: 100%;
-    height:320px;
-    border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-blend-mode: overlay;
-    position: relative;
- }
- .grid-tittle{
-    position: absolute;
-    margin-top: -90px;
-    margin-left: 50px;
-    background: none;
-    font-size: 1.5rem;
- }
- .trainer p{
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 50px;
-    background: none;
-    font-size: 1.2rem;
-
- }
- /* footer-container */
- #footer{
+/* footer-container */
+#footer {
   background: #232322;
-   
-  
- }
- .footer-container{
-   
+}
+
+.footer-container {
   max-width: 1440px;
   margin: 0 auto;
   background: #232322;
-  padding: 7rem 3rem;
-   
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    background: #232322;
-   
- }
- .fitlogo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #232322;
-    width: 33.33%;
- }
-    
- 
- .get-start{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background: #232322;
-    width: 33.33%;
- }
- .started{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 33.33%;
-    background: #232322;
- }
- .footer-tittle{
-    font-size: 2rem;
-font-weight: 700;
-background: #232322;
+  padding: 5rem 3rem;
 
- }
- .footer-sub-tittle{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 100px;
+}
+
+.fitlogo {
+  background: #232322;
+}
+
+.footer-tittle {
+  font-size: 2rem;
+  font-weight: 700;
+  background: #232322;
+}
+
+.footer-sub-tittle {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
-  
-  
- 
+  background: #232322;
+}
 
- }
- ul{
-    list-style: none;
-    background: #232322;
- }
- ul > li{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: rgba(255, 255, 255, 0.5);
-    background: #232322;
+ul {
+  list-style: none;
+  background: #232322;
+}
 
-font-size: 1.5rem;
-font-weight: 400;
-margin: 0.8rem;
-    
- }
- .footer-logo{
-    font-size: 5rem;
-    color: #E6533C;
-    font-style: italic;
-    font-weight: 800;
-    background: #232322;
-    padding-bottom: 1rem;
- }
- .last-container{
-  
-  width: 1200px;
+ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.5);
+  background: #232322;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0.3rem;
+}
+
+.footer-logo {
+  font-size: 5rem;
+  color: #e6533c;
+  font-style: italic;
+  font-weight: 800;
+  background: #232322;
+  padding-bottom: 1rem;
+}
+
+.last-container {
+  max-width: 1200px;
   margin: 0 auto;
   border-top: 3px solid rgba(255, 255, 255, 0.1);
- }
- 
- .last-section{
+}
+
+.last-section {
   text-align: center;
   background: #232322;
   padding: 1.8rem;
   font-size: 1.2rem;
-font-weight: 400;
-color: rgba(255, 255, 255, 0.5);
- }
- 
- 
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
