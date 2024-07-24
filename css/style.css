@@ -270,6 +270,168 @@ p {
   font-weight: 600;
   padding: 1rem 0;
 }
+/* own-design-section */
+.box-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  
+  
+}
+.img-own{
+  background-image: url("../images/exercise6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s;
+  
+ 
+  
+}
+.img-own:hover{
+  transform: scaleX(1.1);
+
+}
+.img-own-2{
+  background-image: url("../images/exercise4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s;
+  
+ 
+  
+}
+.img-own-3{
+  background-image: url("../images/exercise1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s;
+  
+ 
+  
+}
+.img-own-3:hover{
+  transform: scaleX(1.1);
+}
+.img-own-4{
+  background-image: url("../images/exercise3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s;
+  
+ 
+  
+}
+.img-own-2:hover{
+  transform: scaleX(1.1);
+
+}
+.box{
+  background-color: #29282D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4rem 5rem;
+ 
+  
+
+}
+.box-1{
+  background-color: #F34E3A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4rem 5rem;
+ 
+  
+
+}
+#mini-color{
+  color: #D34E3A;
+}
+.mini-text{
+  color: #FFFF;
+  margin-bottom: .4rem;
+  background: none;
+  
+}
+.bold-text{
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: none;
+ 
+  color: #ffff;
+}
+.mini-sub-tittle{
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ffff;
+  margin: 1.8rem 0;
+}
+.mini-btn{
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  background: none;
+  border: none;
+  color: #fff;
+  background: none;
+  text-transform: capitalize;
+}
+.mini-btn i{
+  background: none;
+  font-size: 1rem;
+  margin-left: 6px;
+}
+/* Run an Extra 
+Mile Easily */
+.extra-mile-section {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #232322;
+  border-radius: 1rem;
+}
+
+.extra-mile-left {
+  width: 50%;
+  align-content: center;
+  text-align: left;
+  background: none;
+  margin-left: 2rem;
+}
+
+.run-tittle {
+  font-size: 3rem;
+  font-weight: 900;
+  background: none;
+}
+
+.run-sub-tittle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.extra-mile-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 350px;
+  border-radius: 16px;
+  background-image: url("../images/run.jpg");
+  background-size: 300%;
+  background-position: -80% 30%;
+}
+
 
 /* BMI Calculator */
 
@@ -453,49 +615,7 @@ select {
 }
 
 
-/* Run an Extra 
-Mile Easily */
-.extra-mile-section {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem;
-  background-color: #232322;
-  border-radius: 1rem;
-}
 
-.extra-mile-left {
-  width: 50%;
-  align-content: center;
-  text-align: left;
-  background: none;
-  margin-left: 2rem;
-}
-
-.run-tittle {
-  font-size: 3rem;
-  font-weight: 900;
-  background: none;
-}
-
-.run-sub-tittle {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 1rem;
-  font-weight: 400;
-  margin: 1rem 0;
-}
-
-.extra-mile-right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40%;
-  height: 350px;
-  border-radius: 16px;
-  background-image: url("../images/run.jpg");
-  background-size: 300%;
-  background-position: -80% 30%;
-}
 
 /*Meet Our Team  */
 

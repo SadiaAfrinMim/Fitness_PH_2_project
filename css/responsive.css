@@ -102,6 +102,28 @@
   .round-img-section {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* own-design-section */
+  .box-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+    
+  }
+  .box,.box-1{
+    width: 100%;
+    padding: 2rem;
+   
+  }
+  .img-own,.img-own-2,.img-own-3,.img-own-4{
+    width: 100%;
+    height: 350px;
+  }
+  .img-own-3{
+    display: none;
+  }
+  
   /* extra-mile-easily */
   .extra-mile-easily{
     padding: 0 20px;
@@ -287,6 +309,27 @@
   .round-img-section {
     grid-template-columns: 1fr;
   }
+   /* own-design-section */
+   .box-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+    
+  }
+  .box,.box-1{
+    width: 100%;
+    padding: 2rem;
+   
+  }
+  .img-own,.img-own-2,.img-own-3,.img-own-4{
+    width: 100%;
+    height: 250px;
+  }
+  .img-own-3{
+    display: none;
+  }
+  
 
   /* excercise-section */
   .excercise-section {
