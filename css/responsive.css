@@ -243,7 +243,7 @@
 
  
   .nav-bar {
-    padding: 40px 20px;
+    padding: 40px 0px;
   }
   .nav-item {
     display: none;
@@ -251,13 +251,14 @@
 
   .hamburg{
     display: block;
+    background: none;
    
     
     
   }
   .hamburg i{
     font-size: 2.3rem;
-    
+    background: none;
     
   }
 
@@ -268,7 +269,7 @@
 
   .banner-content {
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 0;
   }
   .banner-tittle {
@@ -361,9 +362,7 @@
   }
 
   /* extra-mile-section */
-  .extra-mile-easily {
-    padding: 0 20px;
-  }
+
   .extra-mile-section {
     flex-direction: column;
   }
