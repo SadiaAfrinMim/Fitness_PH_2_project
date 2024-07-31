@@ -79,7 +79,6 @@
     font-size: 2.2rem;
     font-weight: 800;
     text-align: left;
-    
   }
   .text {
     font-size: 1rem;
@@ -94,7 +93,6 @@
     position: absolute;
     margin-left: -550px;
     margin-bottom: -400px;
-  
   }
   /* habit-section */
   .habit-content {
@@ -105,30 +103,30 @@
   }
 
   /* own-design-section */
-  .box-container{
+  .box-container {
     /* display: grid;
     grid-template-columns: 1fr; */
     width: 100%;
-    
-    
-    
   }
-  .box,.box-1{
+  .box,
+  .box-1 {
     width: 100%;
     height: 350px;
     padding: 2rem;
-   
   }
-  .img-own,.img-own-2,.img-own-3,.img-own-4{
+  .img-own,
+  .img-own-2,
+  .img-own-3,
+  .img-own-4 {
     width: 100%;
     height: 350px;
   }
   /* .img-own-3{
     display: none;
   } */
-  
+
   /* extra-mile-easily */
-  .extra-mile-easily{
+  .extra-mile-easily {
     padding: 0 20px;
     /* margin: 20px; */
   }
@@ -136,7 +134,7 @@
   .BMI-sectiion {
     width: 100%;
   }
-  .bmi-contact-form{
+  .bmi-contact-form {
     background: none;
   }
 
@@ -160,7 +158,7 @@
   table {
     margin-right: 40px;
   }
- 
+
   .bmi-intro {
     width: 100%;
   }
@@ -173,7 +171,6 @@
     padding: 1rem 1.2rem;
   }
   .cal-btn {
-    
     padding: 1.5rem 5rem;
     font-size: 1.5rem;
   }
@@ -186,39 +183,32 @@
   /* grid-img */
   .grid-img img {
     width: 100%;
-    
   }
-  .grid-tittle{
+  .grid-tittle {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
   /*fitlogo  */
   .footer-container {
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr);
     padding: 3rem 2rem;
     gap: 50px;
   }
-  .fitlogo{
+  .fitlogo {
     width: 70%;
-    grid-column: 1/span 12;
-    
+    grid-column: 1 / span 12;
   }
-  
-  .get-start{
+
+  .get-start {
     width: 50%;
-    grid-column: 1/span 6;
-    
+    grid-column: 1 / span 6;
   }
   .started {
-    grid-column: 7/span 6 ;
+    grid-column: 7 / span 6;
     width: 50%;
     background: none;
-    
-    
-   }
-  
-  
+  }
 }
 
 /* mobile device */
@@ -241,7 +231,6 @@
     margin-bottom: 2rem;
   }
 
- 
   .nav-bar {
     padding: 40px 0px;
   }
@@ -249,17 +238,13 @@
     display: none;
   }
 
-  .hamburg{
+  .hamburg {
     display: block;
     background: none;
-   
-    
-    
   }
-  .hamburg i{
+  .hamburg i {
     font-size: 2.3rem;
     background: none;
-    
   }
 
   /* banner-section  */
@@ -307,7 +292,7 @@
     padding: 0.5rem 1.5rem;
   }
   .video {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
     padding-bottom: 3px;
@@ -318,7 +303,7 @@
   }
   .tutorial-top {
     position: absolute;
-    margin-left: 170px;
+    margin-left: 155px;
     margin-top: -330px;
   }
   .tutorial-bottom {
@@ -334,27 +319,26 @@
   .round-img-section {
     grid-template-columns: 1fr;
   }
-   /* own-design-section */
-   .box-container{
+  /* own-design-section */
+  .box-container {
     display: grid;
     grid-template-columns: 1fr;
-    
-    
-    
   }
-  .box,.box-1{
+  .box,
+  .box-1 {
     width: 100%;
     padding: 2rem;
-   
   }
-  .img-own,.img-own-2,.img-own-3,.img-own-4{
+  .img-own,
+  .img-own-2,
+  .img-own-3,
+  .img-own-4 {
     width: 100%;
     height: 250px;
   }
-  .img-own-3{
+  .img-own-3 {
     display: none;
   }
-  
 
   /* excercise-section */
   .excercise-section {
@@ -382,7 +366,6 @@
   .btn-primary {
     width: 100%;
   }
-
 
   /* /* excercise-section */
   .excercise-section {
@@ -493,7 +476,6 @@
     padding: 1rem 1.2rem;
   }
   .cal-btn {
-    
     padding: 1rem 2rem;
     font-size: 1rem;
     width: 40%;
@@ -506,20 +488,19 @@
     grid-template-columns: 1fr;
     margin: 20px;
   }
-  .grid-tittle{
+  .grid-tittle {
     font-size: 1.2rem;
     font-weight: 600;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
-  .grid-img-5 ,.grid-img-6{
+  .grid-img-5,
+  .grid-img-6 {
     display: none;
   }
   /* .footer-container */
   .footer-container {
     grid-template-columns: 1fr;
-    padding: 3rem 2rem; 
+    padding: 3rem 2rem;
     gap: 50px;
   }
-
- 
 }
