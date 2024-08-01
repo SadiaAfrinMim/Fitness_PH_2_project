@@ -474,12 +474,15 @@ select {
   padding: 1rem 1rem;
   border: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.6);
+ 
   width: 50%;
   background: rgba(255, 255, 255, 0.1);
+}
+input::placeholder,select{
+  /* font-family: "Inter", sans-serif; */
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .option {
