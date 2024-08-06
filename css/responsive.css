@@ -73,10 +73,10 @@
     border-radius: 0.5rem;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
   }
   .video {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -113,6 +113,7 @@
     width: 100%;
     height: 350px;
     padding: 2rem;
+    overflow: hidden;
   }
   .img-own,
   .img-own-2,
@@ -120,6 +121,7 @@
   .img-own-4 {
     width: 100%;
     height: 350px;
+    
   }
   /* .img-own-3{
     display: none;
@@ -217,6 +219,9 @@
   main > section {
     margin: 5rem 0;
   }
+  br{
+    display: none;
+  }
 
   .tittle {
     margin-top: 0;
@@ -250,6 +255,7 @@
   /* banner-section  */
   .banner-section {
     flex-direction: column;
+    gap: 50px;
   }
 
   .banner-content {
@@ -289,7 +295,12 @@
     border-radius: 0.5rem;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+  .video-1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
   }
   .video {
     font-size: 1.5rem;
@@ -300,6 +311,7 @@
   .text {
     font-size: 0.6rem;
     font-weight: 300;
+    
   }
   .tutorial-top {
     position: absolute;
@@ -335,7 +347,20 @@
   .img-own-4 {
     width: 100%;
     height: 250px;
+   
   }
+  .img-own:hover {
+    transform: none;
+  }
+  .img-own-2:hover {
+    transform: none;
+  }
+  .img-own-4:hover {
+    transform: none;
+  }
+  
+  
+  
   .img-own-3 {
     display: none;
   }
