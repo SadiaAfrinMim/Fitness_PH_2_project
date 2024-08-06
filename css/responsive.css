@@ -123,9 +123,21 @@
     height: 350px;
     
   }
-  /* .img-own-3{
-    display: none;
-  } */
+  .img-own:hover {
+    transform: none;
+  }
+  .img-own-2:hover {
+    transform: none;
+  }
+  .img-own-4:hover {
+    transform: none;
+  }
+  
+  
+  
+  .img-own-3 {
+    transform: none;
+  }
 
   /* extra-mile-easily */
   .extra-mile-easily {
@@ -219,9 +231,7 @@
   main > section {
     margin: 5rem 0;
   }
-  br{
-    display: none;
-  }
+ 
 
   .tittle {
     margin-top: 0;
