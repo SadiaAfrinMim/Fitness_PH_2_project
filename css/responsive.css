@@ -227,7 +227,7 @@
 
 /* mobile device */
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
   main > section {
     margin: 5rem 0;
   }
@@ -276,6 +276,7 @@
   .banner-tittle {
     width: 80%;
     font-size: 2.5rem;
+    line-height: 50px;
   }
   .banner-btn {
     gap: 10px;
@@ -325,7 +326,7 @@
   }
   .tutorial-top {
     position: absolute;
-    margin-left: 155px;
+    margin-left: 135px;
     margin-top: -330px;
   }
   .tutorial-bottom {
@@ -404,8 +405,11 @@
 
   /* /* excercise-section */
   .excercise-section {
-    padding: 0 20px;
+   
     width: 100%;
+  }
+  .excercise-content{
+    padding: 0 20px;
   }
 
   .color-img {

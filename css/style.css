@@ -217,8 +217,9 @@ header {
 .round i {
   color: #e6533c;
   font-size: 2rem;
-  background: rgba(255, 255, 255, 0.1);
-  background: none;
+  background-color: #fff;
+  border-radius: 50%;
+  
 }
 
 .tutorial-top {
@@ -483,7 +484,7 @@ select {
   background: rgba(255, 255, 255, 0.1);
 }
 input::placeholder,select{
-  /* font-family: "Inter", sans-serif; */
+  font-family: "Inter", sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
