@@ -489,10 +489,14 @@ input::placeholder,select{
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
 }
+option{
+  background-color: #000000;
+}
 
 .option {
   border: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+  
 }
 
 .option select {
